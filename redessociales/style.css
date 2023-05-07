@@ -1,0 +1,19 @@
+
+.inicio{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.menu{
+    text-decoration: none;
+    margin: 20px 20px;
+    border: solid 1px rgb(28, 95, 108);
+    border-radius: 5px;
+    background-color: rgb(28, 95, 108);
+    padding: 10px 5px;
+    color: white;
+}

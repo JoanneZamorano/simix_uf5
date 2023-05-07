@@ -1,0 +1,82 @@
+body{
+    background-color:rgb(155, 19, 155) ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 550;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: rgb(155, 19, 155);
+    font-weight: 550;
+    padding-bottom: 10px;
+}
+label{
+    margin-top: 10px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+h6{
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 450px;
+    text-align: left;
+    padding: 80px 50px;
+    line-height:25px;
+    border-radius: 10px;
+    
+}
+input{
+    border:solid 1px rgb(155, 19, 155);
+    border-radius: 4px;
+    width: 400px;
+    padding: 8px;
+    margin-bottom:5px ;
+}
+button{
+    background-color: rgb(155, 19, 155);
+    border:solid 1px rgb(155, 19, 155);
+    color:white ;
+    margin-top: 40px;
+    padding: 8px;
+    border-radius: 8px;
+    width: 419px;
+}
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    border:solid 1px rgb(155, 19, 155);
+    border-radius: 4px;
+    width: 400px;
+    padding: 8px;
+    margin-bottom:5px ;
+    height: 100px;
+}
+
+
+
+
+.inicio{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.menu{
+    text-decoration: none;
+    margin: 20px 20px;
+    border: solid 1px rgb(28, 95, 108);
+    border-radius: 5px;
+    background-color: rgb(28, 95, 108);
+    padding: 10px 5px;
+    color: white;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: rgba(164, 248, 223, 0.533);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    margin-top: 200px;
+}
+h1{
+    color: rgb(2, 100, 103);
+    margin-top: 20px;
+}
+p{
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    margin: 20px 20px;
+    border: solid 1px rgb(28, 95, 108);
+    border-radius: 5px;
+    background-color: rgb(28, 95, 108);
+    padding: 10px 5px;
+    color: white;
+}
+
